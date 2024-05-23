@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: $POD_NAME
-          image: ${FULL_IMAGE_WITH_TAG}
+          image: $FULL_IMAGE_WITH_TAG
           imagePullPolicy: Always
           resources:
             limits:
